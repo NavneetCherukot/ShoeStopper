@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../CSS/reference.css" >
+    <link rel="stylesheet" type="text/css" href="../CSS/login.css" >
     <link rel="stylesheet" type="text/css" href="../CSS/home.css" >
     <title>ShoeStopper</title>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet"> 
@@ -19,7 +19,7 @@
                 <nav id="side-bar"> 
                     <div>
                         <ul class="guide">
-                            <li id="n1"><a href="./index.html">Home</a></li>
+                            <li id="n1"><a href="../index.html">Home</a></li>
                             <li id="n2"><a href="/Pages/login.html">Account</a></li>
                             <li id="n3"><a href="/Pages/contact.html">Contact</a></li>
                             <li id="n4"><a href="/Pages/reference.html">Referance</a></li>           
@@ -31,47 +31,24 @@
     </header>
 
     <div id="main-container">
-       
-    <div class="table-container" >
-  <table>
-    <colgroup>
-      <col class="ref-col"> <!-- Reference Column -->
-      <col class="link-col"> <!-- Link Column -->
-    </colgroup>
-    <thead>
-      <tr>
-        <th class="table-header"colspan="2">References</th>
-      </tr>
-    </thead> 
-    <tbody>
-      <tr>
-        <td colspan="2"> <!-- Spanning across both columns -->
-          <strong>Category 1</strong>
-        </td>
-      </tr>
-      <tr>
-        <td>Reference 1</td>
-        <td><a href="https://www.example.com/link1" target="_blank">Link 1</a></td>
-      </tr>
-      <tr>
-        <td>Reference 2</td>
-        <td><a href="https://www.example.com/link2" target="_blank">Link 2</a></td>
-      </tr>
-      <tr>
-        <td colspan="2"> <!-- Spanning across both columns -->
-          <strong>Category 2</strong>
-        </td>
-      </tr>
-      <tr>
-        <td>Reference 3</td>
-        <td><a href="https://www.example.com/link3" target="_blank">Link 3</a></td>
-      </tr>
-      <!-- Add more rows as needed -->
-    </tbody>
-  </table>
-  </div>
-
-
+        <div class="login-form">
+            <form>
+              <h1>Login</h1>
+              <div class="content">
+                <div class="input-field">
+                  <input type="email" placeholder="Email" autocomplete="nope">
+                </div>
+                <div class="input-field">
+                  <input type="password" placeholder="Password" autocomplete="new-password">
+                </div>
+                <a href="#" class="link">Forgot Your Password?</a>
+              </div>
+              <div class="action">
+                <button class="register">Register</button>
+                <button class="sign-in">Sign in</button>
+              </div>
+            </form>
+          </div>
     </div>
 
 

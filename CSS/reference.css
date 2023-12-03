@@ -1,0 +1,41 @@
+#main-container{
+   padding: 50px;
+
+}
+
+.table-container{
+    width: 100%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+   
+    
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    color: white;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  .ref-col {
+    width: 70%; /* Adjust the width of the Reference column */
+  }
+  .link-col {
+    width: 30%; /* Adjust the width of the Link column */
+  }
+
+  .table-header{
+    color: black;
+  }
+
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    .ref-col, .link-col {
+      width: 100%;
+      display: block;
+    }
+  }
